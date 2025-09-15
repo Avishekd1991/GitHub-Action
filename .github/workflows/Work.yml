@@ -6,6 +6,7 @@ on:
       -'main'
       - 'features/**'
       - 'hitflix/**'
+  workflow_dispatch:  
 jobs:
   terraform_init_plan:
     name: Terraform Job
