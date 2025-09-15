@@ -3,7 +3,7 @@ name: DemoProject
 on:
   push:
     branches:
-      -'main'
+      - 'main'
       - 'features/**'
       - 'hitflix/**'
   workflow_dispatch:  
@@ -19,9 +19,9 @@ jobs:
         with:
           version: 1.13.0
       - name: Azure Login
-          uses: Azure/login@v2.3.0
-          with:
-            client-id: # optional
-            tenant-id: # optional
-            subscription-id: # optional
-            
+        uses: Azure/login@v2.3.0
+        with:
+          client-id: 82d73028-a412-47d9-95cc-6f186e3f18b0
+          tenant-id: fbf3517a-6193-4d03-9580-ce8a94c1e28c # optional
+          subscription-id: a7275015-536e-4c99-8431-5c9bfbc026c9
+          
