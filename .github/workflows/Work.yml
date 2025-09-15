@@ -3,8 +3,8 @@ name: DemoProject
 on:
   push:
     branches:
-      - 'main'
-      - 'features/**'
+      - 'main/**'
+      - 'features'
       - 'hitflix/**'
 permissions:
   id-token: write
