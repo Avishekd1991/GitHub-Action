@@ -4,6 +4,8 @@ on:
   push:
     branches:
       -'main'
+      - 'features/**'
+      - 'hitflix/**'
 jobs:
   terraform_init_plan:
     name: Terraform Job
