@@ -6,6 +6,9 @@ on:
       - 'main'
       - 'features/**'
       - 'hitflix/**'
+permissions:
+  id-token: write
+  contents: read         
   workflow_dispatch:  
 jobs:
   terraform_init_plan:
