@@ -1,1 +1,9 @@
+name: DemoProject
 
+on:
+  push:
+    branches:
+      -'main'
+jobs:
+  terraform_init_plan
+  runs-on:GitHub-Runner
